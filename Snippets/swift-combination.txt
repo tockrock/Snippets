@@ -1,0 +1,3 @@
+func combination(n: Int, r: Int) -> Int {
+    return (n-r+1...n).reduce(1, *) / (1...r).reduce(1, *)
+}
