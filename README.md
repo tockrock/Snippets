@@ -1,0 +1,2 @@
+# Snippets
+My LaunchBar Snippets
