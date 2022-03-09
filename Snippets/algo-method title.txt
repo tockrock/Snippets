@@ -1,1 +1,0 @@
-Algo-Method: <clipboard 1> (Swift)
