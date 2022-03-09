@@ -1,0 +1,4 @@
+func ask(_ question: String, fallback: String = "") -> String {
+	print(question, terminator: ": ")
+	return readLine() ?? fallback
+}
