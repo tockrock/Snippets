@@ -90,7 +90,7 @@ func /- (lhs: Int, rhs: Int) -> Int {
 // ==========
 
 extension Bool {
-    /// Returns String "Yes" or "No"  depending on the bool value
+    /// Returns String "Yes" or "No" depending on the bool value
     var yN: String { self ? "Yes" : "No" } }
 
 extension Array {
