@@ -1,0 +1,6 @@
+extension Array {
+	func tupled() -> (Element, Element) { (self[0], self[1]) }
+	func tupled() -> (Element, Element, Element) { (self[0], self[1], self[2]) }
+	func tupled() -> (Element, Element, Element, Element) {
+		(self[0], self[1], self[2], self[3]) }
+}

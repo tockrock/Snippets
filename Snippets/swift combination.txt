@@ -1,0 +1,7 @@
+func combination(n: Int, r: Int) -> Int {
+    let smaller = min(n-r, r)
+    guard smaller >= 0 else { return 0 }
+    guard smaller > 0 else { return 1 }
+    let larger = n - smaller
+    return (larger+1...n).reduce(1, *) / (1...smaller).reduce(1, *)
+}

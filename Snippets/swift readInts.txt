@@ -1,0 +1,3 @@
+func readInts() -> [Int] {
+	return readLine()!.split(separator: " ").map { Int(String($0))! }
+}

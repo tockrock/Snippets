@@ -1,0 +1,5 @@
+extension Array {
+	func joinedAsString(separator: String = "") -> String {
+		self.map {"\($0)"}.joined(separator: separator)
+	}
+}

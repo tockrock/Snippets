@@ -1,0 +1,4 @@
+extension Bool {
+	/// Returns String "Yes" or "No" depending on the bool value
+	var yN: String { self ? "Yes" : "No" }
+}
