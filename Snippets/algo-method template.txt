@@ -72,4 +72,4 @@ for example in examples {
     main(label: example.0, example: example.1)
 }
 
-func myDebugPrint (_ s: Any... ) { Swift.print(s.joinedAsString(separator: " ")) }
+func myDebugPrint (_ s: Any... ) { Swift.print(s.map {"\($0)"}.joined(separator: " ")) }
