@@ -1,8 +1,10 @@
-Algo-Method: <clipboard 1> (Swift)
+Algo式: <clipboard 1> (Swift)
 
 ## [Task <clipboard 1>](https://algo-method.com/tasks/<clipboard 1>)
 
 - <|>
+
+[editorial]: https://algo-method.com/tasks/<clipboard 1>/editorial
 
 ### 提出
 
