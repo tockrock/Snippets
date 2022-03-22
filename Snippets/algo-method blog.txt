@@ -1,10 +1,10 @@
-Algo式: <clipboard 1> (Swift)
+アルゴ式: <clipboard 2> <clipboard 1> (Swift)
 
-## [Task <clipboard 1>](https://algo-method.com/tasks/<clipboard 1>)
+## [<clipboard 1>](https://algo-method.com/tasks/<clipboard 2>)
 
 - <|>
 
-[editorial]: https://algo-method.com/tasks/<clipboard 1>/editorial
+[editorial]: https://algo-method.com/tasks/<clipboard 2>/editorial
 
 ### 提出
 
