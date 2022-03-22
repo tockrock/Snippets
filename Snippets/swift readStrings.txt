@@ -1,1 +1,1 @@
-func readStrings() -> [String] { readSubsequence().map({String($0)}) }
+func readStrings() -> [String] { readLine()!.split(separator: " ").map({String($0)}) }
