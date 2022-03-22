@@ -20,10 +20,10 @@ let examples: [(String, Example)] = [
 
 func run(readLine: () -> String?, print: (Any...) -> Void) {
     // these needs to be in run() to get the overwritten readLine()
-    func readString () -> String { readLine()! }
-    func readChars () -> [Character] { Array(readString()) }
-    func readSubsequence () -> [String.SubSequence] { readString().split(separator: " ")}
-    func readStrings () -> [String] { readSubsequence().map({String($0)}) }
+    func readString() -> String { readLine()! }
+    func readChars() -> [Character] { Array(readString()) }
+    func readSubsequence() -> [String.SubSequence] { readString().split(separator: " ")}
+    func readStrings() -> [String] { readSubsequence().map({String($0)}) }
     func readInt() -> Int { Int(readString())! }
     func readInts() -> [Int] { readSubsequence().map{Int($0)!} }
     

@@ -1,0 +1,1 @@
+func readStrings() -> [String] { readSubsequence().map({String($0)}) }

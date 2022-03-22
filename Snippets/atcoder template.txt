@@ -15,10 +15,10 @@ func main() {
 
 main()
 
-func readString () -> String { readLine()! }
-func readChars () -> [Character] { Array(readString()) }
-func readSubsequence () -> [String.SubSequence] { readString().split(separator: " ")}
-func readStrings () -> [String] { readSubsequence().map({String($0)}) }
+func readString() -> String { readLine()! }
+func readChars() -> [Character] { Array(readString()) }
+func readSubsequence() -> [String.SubSequence] { readString().split(separator: " ")}
+func readStrings() -> [String] { readSubsequence().map({String($0)}) }
 func readInt() -> Int { Int(readString())! }
 func readInts() -> [Int] { readSubsequence().map{Int(String($0))!} } // TODO: remove the String conversion once AtCoder is updated to 5.5
 
