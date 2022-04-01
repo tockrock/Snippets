@@ -22,7 +22,7 @@ let examples: [(String, Example)] = [
 ]
 
 // =================================
-// Extentions
+// Extensions
 // Remember to paste these as well!!
 // =================================
 
