@@ -5,12 +5,12 @@ struct Deque<Element> {
 	var count: Int { return head.count + tail.count }
 	var isEmpty: Bool { return head.isEmpty && tail.isEmpty }
 
-	mutating func append(_ newElement: Element) { tail.append(newElement) }
 	mutating func prepend(_ newElement: Element) { head.append(newElement) }
+	mutating func append(_ newElement: Element) { tail.append(newElement) }
+		
+	@discardableResult
+	mutating func popFirst() -> Element? { head.popLast() ?? tail.popFirst() }
 	
 	@discardableResult
 	mutating func popLast() -> Element? { tail.popLast() ?? head.popFirst() }
-	
-	@discardableResult
-	mutating func popFirst() -> Element? { head.popLast() ?? tail.popFirst() }
 }
