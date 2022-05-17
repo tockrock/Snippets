@@ -21,11 +21,6 @@ let examples: [(String, Example)] = [
             """)),
 ]
 
-// =================================
-// Extensions
-// Remember to paste these as well!!
-// =================================
-
 func run(readLine: () -> String?, print: (Any...) -> Void) {
     // =====================
     // actual code goes here
@@ -40,6 +35,17 @@ func run(readLine: () -> String?, print: (Any...) -> Void) {
     // actual code end
     // ===============
 }
+
+// =================================
+// Extensions
+// Remember to paste these as well!!
+// =================================
+
+
+
+// ====================
+// Extensions Ends Here
+// ====================
 
 func main(label: String, example: Example) {
     var inputLines = example.input.split(separator: "\n")
