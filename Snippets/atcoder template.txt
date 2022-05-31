@@ -33,6 +33,7 @@ infix operator /-: MultiplicationPrecedence // FloorDiv
 func /- (lhs: Int, rhs: Int) -> Int {
     if rhs < 0 { return -lhs /- -rhs }
     return lhs >= 0 ? lhs / rhs : (lhs - rhs + 1) / rhs }
+func * (lhs: String, rhs: Int) -> String { String(repeating: lhs, count: rhs) }
 
 // ==========
 // Extentions
