@@ -94,6 +94,8 @@ infix operator /-: MultiplicationPrecedence // FloorDiv
 func /- (lhs: Int, rhs: Int) -> Int {
     if rhs < 0 { return -lhs /- -rhs }
     return lhs >= 0 ? lhs / rhs : (lhs - rhs + 1) / rhs }
+func * (lhs: String, rhs: Int) -> String { String(repeating: lhs, count: rhs) }
+
 
 // ==========
 // Extentions
@@ -218,10 +220,8 @@ func pow(_ base: Int, _ index: Int) -> Int? {
     guard result <= Double(Int.max) && result >= Double(Int.min) else { return nil }
     return Int(result) }
 
-func gcd(_ a: Int, _ b: Int) -> Int {
-    if b == 0 { return a }
-    return gcd(b, a%b)
-}
+func gcd(_ a: Int, _ b: Int) -> Int { b == 0 ? a : gcd(b, a % b) }
+func lcm(_ a: Int, _ b: Int) -> Int { a / gcd(a, b) * b }
 func pf(_ numb: Int) -> [(prime: Int, count: Int)] {
     var n = numb, i = 2, primeList = [(Int, Int)]()
     while i * i <= numb && i <= n {
