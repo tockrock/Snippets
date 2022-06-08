@@ -2,7 +2,7 @@
 
 ## [<clipboard 1>](https://algo-method.com/tasks/<clipboard 2>)
 
-- <|>
+- 
 
 [editorial]: https://algo-method.com/tasks/<clipboard 2>/editorial
 
