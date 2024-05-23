@@ -1,0 +1,20 @@
+1次：技術面接 <date yyy-MM-dd>
+
+------------
+# 応募者の情報/Applicant Information
+
+-
+
+# 志望動機/Reasons for application
+
+-
+
+# 人材要件/Skill
+
+-
+
+# 総合評価/Evaluation
+
+-
+
+------------
